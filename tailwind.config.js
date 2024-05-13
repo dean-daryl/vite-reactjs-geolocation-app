@@ -2,7 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        instrument: ['Instrument Sans', 'sans-serif'],
+        unbounded: ['Unbounded', 'cursive'],
+      },
+    },
   },
   plugins: [],
 };
