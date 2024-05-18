@@ -22,7 +22,7 @@ stop set in a particular route.
 
 ## Running the project
 
-``` git clone ```
+``` git clone https://github.com/dean-daryl/vite-reactjs-geolocation-app.git```
 
 ``` cd geolocation-webPage```
 
