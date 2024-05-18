@@ -11,10 +11,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <PopUp />
-      <div>
-        <MapContainer/>
-      </div>
+      <MapContainer />
       <Footer />
     </>
   );

@@ -1,12 +1,16 @@
 import React from 'react';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-
+interface TimeDistanceProps{
+  time: String |undefined;
+  distance: String|undefined;
+  stopName: String|undefined;
+};
 const childVariant = {
   hidden: { opacity: 0, scale: 0.9 },
   visible: { opacity: 1, scale: 1 },
 };
-const PopUp: React.FC = () => {
+const PopUp: React.FC<TimeDistanceProps> = ({time, distance,stopName}) => {
   return (
     <motion.div
       initial="hidden"
@@ -25,11 +29,11 @@ const PopUp: React.FC = () => {
           </p>
         </div>
         <div>
-          <p className="text-[15px]">Next Stop: Kacyiru Bus Park</p>
+          <p className="text-[15px]">Next Stop: {stopName}</p>
         </div>
         <div className="flex gap-4">
-          <p className="text-[15px]">Distance: 21km</p>
-          <p className="text-[15px]"> Time: 23 minutes</p>
+          <p className="text-[15px]">Distance: {distance}</p>
+          <p className="text-[15px]"> Time: {time}</p>
         </div>
       </div>
     </motion.div>
