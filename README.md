@@ -7,6 +7,7 @@ to navigate a popular bus route in Kigali( Nyabugogo to Kimironko ).
 ## Features
 This web page displays the estimated time and distance to reach each  upcoming
 stop set in a particular route.
+![alt text](image.png)
 
 ## Usage Description
 >This app will be mainly used by >drivers to effectively cruise through >their routes without missing a bus stop.
