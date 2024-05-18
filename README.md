@@ -10,7 +10,7 @@ stop set in a particular route.
 ![alt text](image.png)
 
 ## Usage Description
->This app will be mainly used by >drivers to effectively cruise through >their routes without missing a bus stop.
+>This app will be mainly used by drivers to effectively cruise through their routes without missing a bus stop.
 
 ## Technologies Used
 
